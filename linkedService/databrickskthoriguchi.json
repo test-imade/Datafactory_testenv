@@ -1,0 +1,13 @@
+{
+	"name": "databrickskthoriguchi",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricksDeltaLake",
+		"typeProperties": {
+			"domain": "https://adb-4611932888468297.17.azuredatabricks.net",
+			"clusterId": "1222-081115-drxgdy06",
+			"workspaceResourceId": "/subscriptions/cb095a51-0e23-4235-a693-8d7764e5e62d/resourceGroups/BAP-COSMO-Dev/providers/Microsoft.Databricks/workspaces/dbws-cosmo"
+		}
+	}
+}

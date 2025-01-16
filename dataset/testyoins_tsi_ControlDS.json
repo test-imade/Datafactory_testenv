@@ -1,0 +1,20 @@
+{
+	"name": "testyoins_tsi_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "seigyo",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "testyoins_tsi_20231222"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "seigyotable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

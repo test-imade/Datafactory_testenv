@@ -1,0 +1,19 @@
+{
+	"name": "sqldbkthoriguchi",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqldb-cosmo-horiguchi2.database.windows.net;Initial Catalog=sqldb-cosmo-horiguchi2;User ID=kthoriguchiadmin",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kthoriguchiadmin"
+			}
+		}
+	}
+}
